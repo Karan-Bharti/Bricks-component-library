@@ -11,12 +11,17 @@
 <script src="https://kit.fontawesome.com/26b5866028.js" crossorigin="anonymous"></script>
 <body>
     <div class="wrapper">
-        <div class="header-wrapper">
-                <a class="header-component" href="#"><i class="fa-solid fa-building-columns"></i> Bricks UI</a>
-                <a class="header-component" href="/">Introduction</a>
-                <a class="header-component"  href="https://github.com/Karan-Bharti">Github</a>
-                </div>
-    
+        <nav class="header-wrapper">
+            <div class="nav-section">
+                <a  class="nav-logo"href="#"><i class="fa-solid fa-building-columns"></i> Bricks UI</a>
+            </div>
+
+            <ul class="nav-direction">
+                <li><a href="/">Docs</a></li>
+                <li><a href="https://github.com/Karan-Bharti">Github</a></li>
+                
+            </ul>
+        </nav>
         <div class="body-wrapper">
         <div class="wrapper-sidebar">
         <h2 class="heading-left-sidebar">Components</h2>
@@ -57,7 +62,7 @@
             </div>
         </div>
         <iframe src="https://carbon.now.sh/embed/sbyVccW2wuwVHLeVvjJ0"
-            style="width: 800px; height: 500px; border:0; transform: scale(1); overflow:hidden;"
+            style="width: 800px; height: 500px; border:0; transform: scale(1) z-index:-1; overflow:hidden;"
             sandbox="allow-scripts allow-same-origin">
         </iframe>
         <div class="divider"></div>
