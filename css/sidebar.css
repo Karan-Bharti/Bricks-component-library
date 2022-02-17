@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{scroll-behavior: smooth;}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    height: max-content;
+}
+.heading-left-sidebar{
+    padding: 2rem;
+width: 100%;
+}
+.wrapper-sidebar{
+    width: 100%;
+    display:flex ;
+    flex-direction: column;
+    flex: 0 0 240px;
+    gap: 1rem;
+    width: max-content;
+}
+.drawer-alert{
+    color: black;
+    text-decoration: none;
+    padding: 1rem;
+}
+.drawer-avatar{
+  color: black;
+  text-decoration: none;
+  padding: 1rem;
+}
+.drawer-badge{
+ color: black;
+ text-decoration: none;
+  padding: 1rem;
+}
+.drawer-button{
+  color: black;
+  text-decoration: none;
+  padding: 1rem;
+}
+.drawer-card{
+  color: black;
+  text-decoration: none;
+  padding: 1rem;
+}
+.drawer-image{
+  color: black;
+  text-decoration: none;
+  padding: 1rem;
+}
+.drawer-input{
+  color: black;
+  text-decoration: none;
+  padding: 1rem;
+}
+.drawer-grid{
+color: black;
+text-decoration: none;
+  padding: 1rem;
+}
+.drawer-snackbar{
+ color: black;
+ text-decoration: none;
+  padding: 1rem;
+}
+.drawer-lists{
+  color: black;
+  text-decoration: none;
+  padding: 1rem;
+}
+.drawer-alert:hover,
+.drawer-avatar:hover,
+.drawer-badge:hover,
+.drawer-button:hover,
+.drawer-card:hover,
+.drawer-grid:hover,
+.drawer-input:hover,
+.drawer-image:hover,
+.drawer-lists:hover,
+.drawer-snackbar:hover{
+    color: var(--gray-button);
+    border-left: 4px solid var(--primary-color);
+}
