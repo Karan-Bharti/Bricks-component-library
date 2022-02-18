@@ -1,0 +1,25 @@
+.snackbar-container{
+    display: flex;
+    flex-direction: row;
+    width: 35rem;
+    height: 4.2rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 4px;
+    color: white;
+    background-color: black;
+    gap: 2rem;
+    padding: 1rem;
+}
+.snackbar-text{
+    font-size: medium;
+    font-weight: bold;
+    flex-grow: 1;
+}
+.snackbar-icon{
+    text-decoration: none;
+    color: var(--error-color);
+}
+.snackbar-icon:hover{
+    color: var(--gray-button);
+}
