@@ -1,26 +1,21 @@
-@import url('/css/style.css');
-.avatar.larger{
+.avatar{
     border-radius: 50%;
     border: 0.05rem solid black;
-    margin: 1rem;
+    margin: 1rem;   
+}
+.avatar.avatar-larger{
     width: 6rem;
     height: 6rem;
 }
-.avatar.large{
-    border-radius: 50%;
-    border: 0.05rem solid black;
+.avatar.avatar-large{
     width: 5rem;
     height: 5rem;
-    margin: 1rem;
 }
-.avatar.medium{
-    border-radius: 50%;
-    border: 0.05rem solid black;
+.avatar.avatar-medium{
     width: 4rem;
     height: 4rem;
-    margin: 1rem;
 }
-.avatar.small{
+.avatar.avatar-small{
     border-radius: 50%;
     border: 0.05rem solid black;
     width: 3rem;
