@@ -1,0 +1,41 @@
+.input-simple {
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin: 0.6rem 1.5rem;
+    width: 100%;
+    padding: 1rem;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 0.2rem
+}
+input {
+    background: var(--color-white);
+    padding: 0.6rem 0.7rem;
+    float: left;
+    font-size: 0.9rem;
+    margin-top: 0.6rem ;
+    margin-bottom: 0.6rem;
+    border-radius: 0.1rem;
+    width: 100%;
+}
+.input-box {
+    border: 1px solid black;
+}
+
+.error-box {
+    border: 0.1rem solid var(--error-color);
+}
+.error-message {
+    color: var(--error-color);
+}
+.success-box {
+    border: 0.1rem solid var(--success-color);
+}
+.success-message {
+    color: var(--success-color);
+}
