@@ -1,0 +1,24 @@
+.list-spaced,
+.list-stacked,
+.list-stacked-borders{
+    display: flex;
+    gap: 2rem;
+}
+.list-item{
+list-style-type: none;
+font-weight: bold;
+}
+.list-spaced{
+    flex-direction: row;
+}
+.list-stacked{
+    flex-direction: column;
+}
+
+.list-item-borders{
+    border: 1px solid black;
+    list-style-type: none;
+font-weight: bold;
+padding: 1rem;
+}
+
