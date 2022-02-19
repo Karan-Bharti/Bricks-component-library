@@ -18,8 +18,7 @@ input {
     padding: 0.6rem 0.7rem;
     float: left;
     font-size: 0.9rem;
-    margin-top: 0.6rem ;
-    margin-bottom: 0.6rem;
+    margin: 0.6rem 0rem;
     border-radius: 0.1rem;
     width: 100%;
 }
@@ -27,13 +26,13 @@ input {
     border: 1px solid black;
 }
 
-.error-box {
+.border-error {
     border: 0.1rem solid var(--error-color);
 }
 .error-message {
     color: var(--error-color);
 }
-.success-box {
+.border-success {
     border: 0.1rem solid var(--success-color);
 }
 .success-message {
