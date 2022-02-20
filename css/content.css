@@ -47,3 +47,9 @@
 .content-container {
     padding-bottom: 3rem;
 }
+.heading-content.home{
+    text-align: center;
+    color: var(--primary-color);
+    padding-bottom: 0rem;
+    padding-top: 4rem;
+}
