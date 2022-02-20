@@ -10,6 +10,7 @@ img {
     width: 60%;
     display: grid;
     box-sizing: border-box;
+    box-shadow: var(--gray-button) 2px 2px 2px 2px;
 }
 
 .card-badge-content {
@@ -78,7 +79,8 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    box-sizing: border-box;;
+    box-sizing: border-box;
+    box-shadow: var(--gray-button) 1px;
 }
 .card-image {
     width: 100%;
@@ -117,12 +119,43 @@ h2 {
             color: var(--black-color);
           }
           .card-container.overlay{
-            color: var(--overlay-color);
             position: relative;
+            opacity: .5;
           }
           .card-text-only{
               background-color: var(--white-color);
         
           }
-
-      
+        .cancel-e{
+            opacity: .7;
+            text-decoration: line-through;
+        }
+      .card-btn-e{
+        border: none;
+        margin: 0.1rem;
+        color: var(--warning-color);
+        background-color: inherit;
+        padding: 0.5rem;
+      }
+      .card-btn-buy{
+        border: none;
+        margin: 0.1rem;
+        color: var(--error-color);
+        background-color: inherit;
+        padding: 0.5rem;
+      }
+      .card-btn-cross{
+        border: none;
+        margin: 0.1rem;
+        color: var(--primary-color);
+        background-color: inherit;
+        padding: 0.5rem;
+      }
+      .card-container ecommerce{
+        box-shadow: var(--gray-button) 2px 2px 2px 2px;
+      }
+      .card-btn-cross:hover,
+      .card-btn-buy:hover,
+      .card-btn-e:hover{
+          color: var(--gray-button);
+      }
