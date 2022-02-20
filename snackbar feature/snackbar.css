@@ -1,4 +1,4 @@
-.snackbar-container{
+.snackbar-container {
     display: flex;
     flex-direction: row;
     width: 35rem;
@@ -11,15 +11,18 @@
     gap: 2rem;
     padding: 1rem;
 }
-.snackbar-text{
+
+.snackbar-text {
     font-size: medium;
     font-weight: bold;
     flex-grow: 1;
 }
-.snackbar-icon{
+
+.snackbar-icon {
     text-decoration: none;
     color: var(--error-color);
 }
-.snackbar-icon:hover{
+
+.snackbar-icon:hover {
     color: var(--gray-button);
 }

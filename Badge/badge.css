@@ -1,40 +1,43 @@
 .badge-icon {
-    position: relative;
-    width: max-content;
-    min-width: 3rem;
-    font-size: 3rem;
-    margin: 0 1rem;
-  }
+  position: relative;
+  width: max-content;
+  min-width: 3rem;
+  font-size: 3rem;
+  margin: 0 1rem;
+}
 
-  #badge-pending {
-      background-color: var(--error-color);
-    position: absolute;
-    border: none;
-    top: -0.3rem;
-    left: 2rem;
-    border-radius: 50% ;
-    text-align: center;
-    padding: 5px 8px;
-    color: white;
-    font-size:40%;
-  }
-.badge-container-avatar{
-    position: relative;
+#badge-pending {
+  background-color: var(--error-color);
+  position: absolute;
+  border: none;
+  top: -0.3rem;
+  left: 2rem;
+  border-radius: 50%;
+  text-align: center;
+  padding: 5px 8px;
+  color: white;
+  font-size: 40%;
 }
-.avatar-larger{
-    width: 6rem;
-    height: 6rem;
-    border-radius: 50%;
-    border: 0.05rem solid black;
-    margin: 1rem;
+
+.badge-container-avatar {
+  position: relative;
 }
-.badge-color{
-padding: 1rem;
-background-color: var(--warning-color);
-border-radius: 3rem;
-height: 0.5rem;
-width: 0.5rem;
-position:absolute;
-bottom: 1rem;
-right: 1rem;
+
+.avatar-larger {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  border: 0.05rem solid black;
+  margin: 1rem;
+}
+
+.badge-color {
+  padding: 1rem;
+  background-color: var(--warning-color);
+  border-radius: 3rem;
+  height: 0.5rem;
+  width: 0.5rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
 }

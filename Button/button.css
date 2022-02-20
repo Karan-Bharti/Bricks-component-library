@@ -1,17 +1,20 @@
-.button{
+.button {
     padding: 0.5rem;
     border: none;
     color: white;
     border-radius: 0.2rem;
-    margin: 0.5rem; 
+    margin: 0.5rem;
 }
-.button-primary{
+
+.button-primary {
     background-color: var(--primary-color);
 }
-.button-icon{
+
+.button-icon {
     background-color: var(--unread-color);
 }
-.button-link{
+
+.button-link {
     text-decoration: none;
     background-color: var(--gray-button);
     color: white;
@@ -19,7 +22,8 @@
     font-size: small;
     margin: 0.5rem;
 }
-.button-float-action{
+
+.button-float-action {
     background-color: var(--success-color);
-   
+
 }

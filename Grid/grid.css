@@ -1,22 +1,24 @@
 .two-items {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 2px;
-    box-sizing: border-box;
-  }
-  .item-one,
-  .item-two,
-  .item-three{
-      width: 10rem;
-      height: 10rem;
-      background-color: var(--success-color);
-      color: white;
-    text-align: center;
-    padding-top: 2rem;
-  }
-  .three-items{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 2px;
-    box-sizing: border-box; 
-  }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2px;
+  box-sizing: border-box;
+}
+
+.item-one,
+.item-two,
+.item-three {
+  width: 10rem;
+  height: 10rem;
+  background-color: var(--success-color);
+  color: white;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.three-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2px;
+  box-sizing: border-box;
+}

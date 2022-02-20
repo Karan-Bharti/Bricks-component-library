@@ -1,27 +1,33 @@
-.image{
-    border: 0.05rem solid black; 
-    margin: 1rem; 
+.image {
+    border: 0.05rem solid black;
+    margin: 1rem;
 }
-.image-large{
+
+.image-large {
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
 }
-.image-medium{
+
+.image-medium {
     width: 8rem;
     height: 8rem;
     border-radius: 50%;
 }
-.image-small{
-        width: 6rem;
-        height: 6rem;
-        border-radius: 50%;
+
+.image-small {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
 }
-.image-square{
-width: 20rem;
-height: 20rem;
+
+.image-square {
+    width: 10rem;
+    height: 10rem;
 }
-.image-responsive{
+
+.image-responsive {
     height: auto;
     max-width: 100%;
+    object-fit: cover;
 }

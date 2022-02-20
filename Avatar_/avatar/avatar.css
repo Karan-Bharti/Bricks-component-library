@@ -1,21 +1,25 @@
-.avatar{
+.avatar {
     border-radius: 50%;
     border: 0.05rem solid black;
-    margin: 1rem;   
+    margin: 1rem;
 }
-.avatar.avatar-larger{
+
+.avatar.avatar-larger {
     width: 6rem;
     height: 6rem;
 }
-.avatar.avatar-large{
+
+.avatar.avatar-large {
     width: 5rem;
     height: 5rem;
 }
-.avatar.avatar-medium{
+
+.avatar.avatar-medium {
     width: 4rem;
     height: 4rem;
 }
-.avatar.avatar-small{
+
+.avatar.avatar-small {
     border-radius: 50%;
     border: 0.05rem solid black;
     width: 3rem;

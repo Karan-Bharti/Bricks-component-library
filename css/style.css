@@ -2,19 +2,19 @@
 @import url('/css/sidebar.css');
 @import url('/css/content.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
 :root {
     --primary-color: #6366f1;
     --gray-button: #9ca3af;
-    --error-color:#ef4444;
-    --warning-color:#fbbf24;
-    --success-color:#16a34a;
-    --unread-color:#f87171;
+    --error-color: #ef4444;
+    --warning-color: #fbbf24;
+    --success-color: #16a34a;
+    --unread-color: #f87171;
     --white-color: white;
-    --black-color:black;
-    --overlay-color:#cbd5e1;
-  }
- 
-  
+    --black-color: black;
+    --overlay-color: #cbd5e1;
+}
