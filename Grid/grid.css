@@ -1,7 +1,7 @@
 .two-items {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 1rem;
+    column-gap: 2px;
     box-sizing: border-box;
   }
   .item-one,
@@ -17,6 +17,6 @@
   .three-items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 1rem;
+    column-gap: 2px;
     box-sizing: border-box; 
   }
