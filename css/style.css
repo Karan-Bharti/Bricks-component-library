@@ -2,7 +2,7 @@
 @import url('/css/sidebar.css');
 @import url('/css/content.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
+@import url('/Main/main.css');
 body {
     font-family: 'Montserrat', sans-serif;
 }
